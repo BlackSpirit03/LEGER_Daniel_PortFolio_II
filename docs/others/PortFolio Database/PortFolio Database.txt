@@ -1,0 +1,6 @@
+AUTHORS (_idt_author_, email, password, url, created_at, updated_at)
+SKILLS (_idt_skill_, language, short_label, detail, level, created_at, updated_at, #idt_author)
+PROFESSIONALS (_idt_professional_, language, short_label, detail, date_start, date_end, created_at, updated_at, #idt_author)
+PROJECTS (_idt_project_, language, short_label, detail, photo, date_start, date_end, created_at, updated_at, #idt_author)
+PERSONNALS (_idt_personnal_, language, short_label, detail, date_start, date_end, created_at, updated_at, #idt_author)
+MESSAGES (_idt_message_, name_contact, phone_contact, email, message, flag_urgent, date, created_at, updated_at, #idt_author)

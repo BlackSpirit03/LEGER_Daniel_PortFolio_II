@@ -1,0 +1,53 @@
+/* Part used for Vertical Titel Alignments */
+@media screen and (max-width: 992px) {
+  .vertical{
+    display:none;
+  }
+}
+
+.vertical {
+	-ms-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	-ms-transform-origin: left top 0;
+	-moz-transform-origin: left top 0;
+	-webkit-transform-origin: left top 0;
+	transform-origin: left top 0;
+	  
+	background: #E23737;
+	color: #fff;
+	margin-left: 40px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	text-transform: uppercase;
+	border: 1px solid #B52C2C;
+	text-transform: 1px 1px 0px rgba(0, 0, 0, 0.5);
+	box-shadow: 2px -2px 0px rgba(0, 0, 0, 0.1);
+	float: left;
+	cursor: vertical-text;
+}
+
+/*Specific Colors used by DLEGER*/
+.bg-black {
+	background-color: #000000;
+}
+
+.text-black {
+	color: #000000;
+}
+
+
+/* Not More Used*/
+.vericaltext {
+	width:1px;
+	word-wrap: break-word;
+	white-space:pre-wrap; 
+}
+
+/* Not used*/
+.vertical-text {
+	transform: rotate(90deg);
+	transform-origin: left bottom 0;
+	float: left;
+}
