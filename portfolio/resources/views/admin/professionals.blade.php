@@ -42,9 +42,8 @@
 					</table> 
 				</div>
 
-				<div class="panel-footer"> 
-					{{ $listProfessionals->links() }}
-				</div>
+				<div class="panel-footer">{{ $listProfessionals->links() }}</div>
+
 			</div>
 		</div>
 	</div>

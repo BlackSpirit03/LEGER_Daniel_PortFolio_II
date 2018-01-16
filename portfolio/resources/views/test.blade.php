@@ -111,6 +111,7 @@ $(document).ready(function(){
 	$('.validsup').click(function(e) {
 		e.preventDefault();
 		$('#btdel').attr('href',$(this).parent().attr('href'));
+		//alert($('#btdel').attr('href'));
 
 		// Show the Modal on load
 		$("#MyModal").modal("show");
@@ -121,6 +122,8 @@ $(document).ready(function(){
 
     // Hide the Modal
     $("#btdel").click(function(){
+		//alert($('#btdel').attr('href'));
+		$(location).attr('href', $('#btdel').attr('href'));
 
         $("#MyModal").modal("hide");
         

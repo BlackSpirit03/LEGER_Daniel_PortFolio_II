@@ -18,6 +18,7 @@
 	<link href="../vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 	<link href="/css/style.css" type="text/css" rel="stylesheet">
 
+
 </head>
 
 <body style="background: #000000">
@@ -99,6 +100,33 @@
 
 	<!-- Scripts -->
 	<script src="{{ asset('js/app.js') }}"></script>
+	<script src="{{ asset('js/script.js') }}"></script>
+
+	<!-- Script Additionnel By DLEGER -->
+<!-- 	<script type="text/javascript">
+	$(document).ready(function(){
+
+		// Store some value before to show the modal
+		$('.validsup').click(function(e) {
+			
+			e.preventDefault();
+
+			$('#btdel').attr('href',$(this).parent().attr('href'));
+
+			// Show the Modal on load
+			$("#MyModal").modal("show");
+
+		});
+
+	    // Run action and Hide the Modal
+	    $("#btdel").click(function(){
+
+			$(location).attr('href', $('#btdel').attr('href'));
+	        $("#MyModal").modal("hide");
+	    });
+	});
+
+	</script> -->
 
 </body>
 </html>

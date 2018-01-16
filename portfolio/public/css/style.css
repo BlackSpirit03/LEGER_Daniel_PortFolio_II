@@ -3,3 +3,7 @@
 .modal-button {
 	width: 100px;
 }
+
+tr.line1:nth-child(4n+1), tr.line2:nth-child(4n+2){
+	background-color: #F9F9F9;
+}
