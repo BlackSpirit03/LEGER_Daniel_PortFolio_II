@@ -1,23 +1,21 @@
-<!-- Modal Made or Customized by DLEGER -->
+ <!-- Modal Made or Customized by DLEGER -->
 
-<!-- Modal -->
+<!-- Delete Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span></button>
+      <div class="modal-header btn-danger">
         <h4 class="modal-title" id="myModalLabel">
-          <i class="fa fa-exclamation-triangle text-danger" aria-hidden="true"></i>@lang('Deleting a message') !</h4>
+          <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>&nbsp;<strong>@lang('Deletion of a Message')&nbsp;!</strong></h4>
       </div>
-      <div class="modal-body">
+      <div class="modal-body text-danger">
         <p>@lang('You are about to delete a message and this action is irreversible') !</p>
-        <p>@lang('Are you sure you want to do that') ?</p>
+        <p>@lang('Are you sure you want to do that')&nbsp;?</p>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">@lang('Cancel')</button>
-        <button type="button" class="btn btn-primary">@lang('OK')</button>
+      <div class="modal-footer align-content-center">
+        <button type="button" class="modal-button col-4 btn btn-success btn-sm" style="width: 100px;" data-dismiss="modal" >@lang('No')</button>
+        <button type="button" class="modal-button col-4 btn btn-danger btn-sm" style="width: 100px;">@lang('Yes')</button>
       </div>
     </div>
   </div>
-</div>
+</div> <!-- End of Delete Modal -->

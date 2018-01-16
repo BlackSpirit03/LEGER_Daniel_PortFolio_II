@@ -93,9 +93,8 @@
 				</div>
 			</div>
 		</nav>
-
 		@yield('content')
-		
+		@include('admin.modal')
 	</div>
 
 	<!-- Scripts -->

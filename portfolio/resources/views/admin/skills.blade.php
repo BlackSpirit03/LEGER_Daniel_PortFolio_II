@@ -13,12 +13,15 @@
 
 						<thead>
 						  <tr>
-							<th><i class="fa fa-flag-o" aria-hidden="true"></i></th>
-							<th>@lang('Short Label')</th>
-							<th>@lang('Detail')</th>
-							<th>@lang('Date Start')</th>
-							<th>@lang('Date End')</th>
-							<th><span class=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span></th>
+							<th rowspan="2" style="vertical-align:bottom"><i class="fa fa-flag-o" aria-hidden="true"></i></th>
+							<th rowspan="2" style="vertical-align:bottom">@lang('Short Label')</th>
+							<th rowspan="2" style="vertical-align:bottom">@lang('Detail')</th>
+							<th colspan="2" style="text-align:center">Date</th>
+							<th rowspan="2" style="vertical-align:bottom"><span class=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span></th>
+						  </tr>
+						  <tr>
+						  	<th>@lang('Start')</th>
+						  	<th>@lang('End')</th>
 						  </tr>
 						</thead>
 

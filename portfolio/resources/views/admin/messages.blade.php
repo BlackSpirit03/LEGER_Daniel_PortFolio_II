@@ -24,23 +24,26 @@
 
 						<tbody>
 						  @foreach($listMessages as $lineoftable)
-						  <tr>
-						  	<td>@if($lineoftable->flag_urgent == 1)<i class="fa fa-ambulance" aria-hidden="true"></i>@endif</td>
-							<td>{{ $lineoftable->name_contact }}</td>
-							<td>{{ $lineoftable->company_contact }}</td>
-							<td>{{ $lineoftable->phone_contact }}</td>
-							<td>{{ $lineoftable->email }}</td>
-							<td>{{ $lineoftable->created_at }}</td>
-							<td><a href="{{ route('messages_del', $lineoftable->id) }}"><i class="fa fa-trash-o" aria-hidden="true"></i></a></td>
-							<td><a data-toggle="modal" data-target="#myModal"><i class="fa fa-trash-o" aria-hidden="true"></i></a></td>
-						  </tr>
+						  	<tr>
+							  	<td rowspan="2" style="vertical-align:middle">@if($lineoftable->flag_urgent == 1)<i class="fa fa-ambulance" aria-hidden="true"></i>@endif</td>
+								<td>{{ $lineoftable->name_contact }}</td>
+								<td>{{ $lineoftable->company_contact }}</td>
+								<td>{{ $lineoftable->phone_contact }}</td>
+								<td>{{ $lineoftable->email }}</td>
+								<td>{{ $lineoftable->created_at }}</td>
+								<td rowspan="2" style="vertical-align:middle"><a href="{{ route('messages_del', $lineoftable->id) }}"><i class="fa fa-trash-o" aria-hidden="true"></i></a></td>
+								<td rowspan="2" style="vertical-align:middle"><a data-toggle="modal" data-target="#myModal"><i class="fa fa-trash-o" aria-hidden="true"></i></a></td>
+							</tr>
+							<tr>
+								<td colspan="5"><strong>@lang('Message'):</strong> {{ $lineoftable->message }}</td>
+						  	</tr>
 						  @endforeach
 						</tbody>
 						
 					  </table>
 
 					  <!-- Modal -->
-					  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 					    <div class="modal-dialog" role="document">
 					      <div class="modal-content">
 					        <div class="modal-header btn-danger">
@@ -56,7 +59,7 @@
 					        	<button type="button" class="modal-button col-4 btn btn-danger btn-sm" style="width: 100px;">@lang('Yes')</button>
 					        </div>
 					      </div>
-					    </div>
+					    </div> -->
 					  </div> <!-- End of Modal -->
 
 				</div>

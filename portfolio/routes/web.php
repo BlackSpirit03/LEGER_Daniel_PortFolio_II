@@ -37,4 +37,8 @@ Route::get('/admin/projects','Admin\ProjectController@index')->middleware(['auth
 Route::get('/admin/personals','Admin\PersonalController@index')->middleware(['auth'])->name('personals');
 Route::get('/admin/personals/{message}','Admin\PersonalController@destroy')->middleware(['auth'])->name('personals_del');
 
+// Routes de TEST
+Route::get('/test', 'TestController@index')->name('test');
+Route::get('/test/{message}', 'TestController@destroy')->name('testdestroy');
+Route::get('/test2', 'Test2Controller@index')->name('test2');
 

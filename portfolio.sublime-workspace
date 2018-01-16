@@ -4,20 +4,24 @@
 		"selected_items":
 		[
 			[
-				"center",
-				"align-content-center \tBootstrap 4 Class"
+				"al",
+				"align-items-center \tBootstrap 4 Class"
 			],
 			[
-				"danger",
-				"card-danger \tBootstrap 4 Class"
-			],
-			[
-				"just",
+				"jus",
 				"justify-content-center \tBootstrap 4 Class"
 			],
 			[
-				"text",
-				"text-danger \tBootstrap 4 Class"
+				"wp_enqueu",
+				"wp_enqueue_scripts"
+			],
+			[
+				"wp_en",
+				"wp_enqueue_script"
+			],
+			[
+				"the",
+				"the_permalink"
 			],
 			[
 				"list",
@@ -28,8 +32,8 @@
 				"btn-danger \tBootstrap 4 Class"
 			],
 			[
-				"al",
-				"align-self-auto \tBootstrap 4 Class"
+				"text",
+				"text-center \tBootstrap 4 Class"
 			],
 			[
 				"ali",
@@ -47,35 +51,25 @@
 			"file": "portfolio/routes/web.php",
 			"settings":
 			{
-				"buffer_size": 1681,
+				"buffer_size": 1904,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "portfolio/resources/views/homepage.blade.php",
+			"file": "portfolio/resources/views/test.blade.php",
 			"settings":
 			{
-				"buffer_size": 16773,
+				"buffer_size": 3980,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "portfolio/resources/views/layouts/app.blade.php",
+			"file": "portfolio/app/Http/Controllers/Admin/MessageController.php",
 			"settings":
 			{
-				"buffer_size": 3480,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "portfolio/public/css/stylish-portfolio.css",
-			"settings":
-			{
-				"buffer_size": 7202,
-				"encoding": "UTF-8",
+				"buffer_size": 2203,
 				"line_ending": "Unix"
 			}
 		}
@@ -120,86 +114,116 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Controllers",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Controllers/Admin",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Mail",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/bootstrap",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/public",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/public/css",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/public/img",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/admin",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/layouts"
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/app",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/app/Http",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/app/Http/Controllers",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/app/Http/Controllers/Admin",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/public",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/public/css",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/public/img",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/public/js",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/resources",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/resources/views",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/resources/views/admin",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/resources/views/auth",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/routes"
 	],
 	"file_history":
 	[
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/layouts/app.blade.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/admin/skills.blade.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/admin/messages.blade.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/admin/modal.blade.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/homepage.blade.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/modal2.blade.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/resources/views/admin/messages.blade.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/resources/views/admin/professionals.blade.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/resources/views/admin/skills.blade.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/resources/views/admin/projects.blade.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/resources/views/admin/personals.blade.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/resources/views/test.blade.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/app/Http/Controllers/TestController.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/app/Http/Controllers/HomePageController.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/resources/views/homepage.blade.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/resources/views/test2.blade.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/app/Http/Controllers/Admin/MessageController.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/app/Http/Controllers/Test2Controller.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/public/js/app.js",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/resources/views/layouts/app.blade.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/resources/views/admin/modal.blade.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/app/Http/Controllers/Admin/PersonalController.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/resources/views/admin/test.blade.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/resources/lang/fr.json",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/resources/lang/en.json",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/readme.md",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/drupal/tutodrupal8.3/sites/example.sites.php",
+		"/Users/dleger/Desktop/RDV/www.atrium-vichy.com-20180103T190811.json",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/exo/sidebar.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/twentyseventeen/functions.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/exo/fonction.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-includes/theme.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-includes/functions.wp-scripts.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-includes/functions.wp-styles.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-includes/class-wp-theme.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wpaformac.sublime-project",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/exo/footer.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/exo/page.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/exo/header.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-includes/category-template.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/exo/index.html",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/exo/contact.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/montheme/index.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/exo/single.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/exo/js/contact-form.js",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/exo/contact-form.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/exo/contact-form-fr/contact-form.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/exo/js/script.js",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/exo/style.css",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/twentysixteen/header.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-includes/general-template.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/twentysixteen/functions.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/exo/index.html",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/twentysixteen/sidebar.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/exo/css/main.css",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/twentysixteen/index.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/twentysixteen/footer.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/twentysixteen/search.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-includes/widgets.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/twentysixteen/searchform.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/exo/index.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-includes/class-wp-hook.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/exo/css/style.css",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/montheme/style.css",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-includes/post-template.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/twentysixteen/style.css",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/twentysixteen/template-parts/content-none.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/twentysixteen/mapage.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/roda/functions.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/twentysixteen/single.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-config.php",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Controllers/HomePageController.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/public/css/stylish-portfolio.css",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/config/session.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/.env",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/public/css/specific_design.css",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Mail/SendMail.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/email/email.blade.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/admin/personals.blade.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/admin/professionals.blade.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/admin/projects.blade.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/home.blade.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/auth/login.blade.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Controllers/Admin/MessageController.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Controllers/Admin/ProjectController.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Controllers/Admin/ProfessionalController.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Controllers/Admin/PersonalController.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Controllers/Admin/SkillController.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/lang/fr.json",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/lang/en.json",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/auth/passwords/email.blade.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authorize.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Controllers/Auth/LoginController.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Validation/ValidatesRequests.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Bus/DispatchesJobs.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Auth/Access/AuthorizesRequests.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/vendor/mockery/mockery/tests/Mockery/Fixtures/SemiReservedWordsAsMethods.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/welcome.blade.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Controllers/HomeController.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Controllers/Admin/testController.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/personals.blade.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Controllers/PersonalController.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/email.blade.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/homepage.blade.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/layouts/app.blade.php",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Controllers/MessageController.php",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/messages.blade.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Controllers/SkillController.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Controllers/ProjectController.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Controllers/ProfessionalController.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Controllers/testController.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/liste.blade.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/modal.blade.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/public/js/script.js",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/public/js/flash_alert.js",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/auth/login.blade.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/email.blade.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/lang/fr.json",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/personals.blade.php",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/professionals.blade.php",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/projects.blade.php",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/skills.blade.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/welcome.blade.php",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/storage/logs/laravel.log",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Models/MyMessage.php",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/storage/logs/laravel-2017-12-30.log",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/config/app.php",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Models/Message.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Mail/SendMail.php",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Middleware/Locale.php",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Controllers/AdminPageController.php",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Controllers/AuthorController.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Controllers/HomeController.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Controllers/PersonalController.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Controllers/ProfessionalController.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Controllers/ProjectController.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Controllers/SkillController.php",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Controllers/UserController.php",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/routes/api.php",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Kernel.php",
@@ -222,61 +246,30 @@
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/Examples/index3.php",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/Examples/index2.blade.php",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/Examples/flipcard.blade.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/auth/passwords/email.blade.php",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/auth/register.blade.php",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/auth/passwords/reset.blade.php",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/vendor/laravel/framework/src/Illuminate/Contracts/Mail/Mailable.php",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/vendor/laravel/framework/src/Illuminate/Mail/Mailable.php",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/config/mail.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/.env",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/lang/en.json",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/home.blade.php",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/lang/oldfr.json",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/lang/fr/pagination.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/public/css/stylish-portfolio.css",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/vendor/laravel/framework/src/Illuminate/Mail/PendingMail.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/vendor/laravel/framework/src/Illuminate/Mail/Message.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/vendor/laravel/framework/src/Illuminate/Support/Facades/Mail.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/vendor/laravel/framework/src/Illuminate/Contracts/Queue/ShouldQueue.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/vendor/symfony/http-foundation/Request.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Mail/SendMail.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Models/Personals.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Models/Messages.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Providers/AuthServiceProvider.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/flipcard.blade.php",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/composer.json",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/portfolio.sublime-project",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/routes/web.php",
-		"/Users/dleger/Desktop/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/.env",
-		"/Users/dleger/Desktop/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/404.blade.php",
-		"/Users/dleger/Desktop/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/views/419.blade.php",
-		"/Users/dleger/Desktop/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/resources/views/modal.blade.php",
-		"/Users/dleger/Desktop/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Controllers/HomePageController.php",
-		"/Users/dleger/Desktop/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/app/Http/Controllers/AdminPageController.php",
-		"/Users/dleger/Desktop/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/.gitignore",
-		"/Users/dleger/Desktop/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/.gitignore",
-		"/Users/dleger/Desktop/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/README.md",
-		"/Users/dleger/Desktop/AFORMAC03-DLEGER/SITES & EXERCICES/laravelmac/portfolio/database/migrations/2017_12_14_140308_create_t_authors_table.php",
-		"/Users/dleger/Desktop/AFORMAC03-DLEGER/SITES & EXERCICES/laravelmac/portfolio/database/migrations/2017_12_14_140546_create_t_skills_table.php",
-		"/Users/dleger/Desktop/AFORMAC03-DLEGER/SITES & EXERCICES/laravelmac/portfolio/database/migrations/2017_12_14_143130_create_t_professionals_table.php",
-		"/Users/dleger/Desktop/AFORMAC03-DLEGER/SITES & EXERCICES/laravelmac/portfolio/database/migrations/2017_12_14_143423_create_t_projects_table.php",
-		"/Users/dleger/Desktop/AFORMAC03-DLEGER/SITES & EXERCICES/laravelmac/portfolio/database/migrations/2017_12_14_143620_create_t_personals_table.php",
-		"/Users/dleger/Desktop/AFORMAC03-DLEGER/SITES & EXERCICES/laravelmac/portfolio/database/migrations/2017_12_14_143744_create_t_messages_table.php",
-		"/Users/dleger/Desktop/AFORMAC03-DLEGER/SITES & EXERCICES/laravelmac/portfolio/database/migrations/2014_10_12_000000_create_users_table.php",
-		"/Users/dleger/Desktop/AFORMAC03-DLEGER/SITES & EXERCICES/laravelmac/portfolio/app/Providers/AppServiceProvider.php",
-		"/Users/dleger/Desktop/AFORMAC03-DLEGER/SITES & EXERCICES/laravelmac/portfolio/.env",
-		"/Users/dleger/Desktop/AFORMAC03-DLEGER/SITES & EXERCICES/laravelmac/portfolio/database/migrations/2014_10_12_100000_create_password_resets_table.php",
-		"/Users/dleger/Desktop/AFORMAC03-DLEGER/SITES & EXERCICES/laravelmac/portfolio/composer.json",
-		"/Users/dleger/Desktop/AFORMAC03-DLEGER/SITES & EXERCICES/laravelmac/portfolio/portfolio.sublime-project",
-		"/Users/dleger/Desktop/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/PortFolio/PortFolio Database/PortFolio Database_svg.py",
-		"/Users/dleger/Desktop/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/PortFolio/PortFolio Database/PortFolio Database.tex"
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio/vendor/laravel/framework/src/Illuminate/Mail/Message.php"
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
 		"height": 101.0,
 		"where_history":
 		[
-			"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio/portfolio"
 		]
 	},
 	"find_state":
@@ -284,25 +277,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"navbar",
-			"messages",
-			"\"\"",
-			"awesome",
-			"admain",
-			"categories",
-			"category",
-			"message",
-			"Message",
-			"*.json",
-			"Remplissez ce champ",
-			"Veuillez",
-			"Couriel",
-			"Renseigner",
-			"Veuillez renseigner",
-			"Message",
-			"bootstrap",
-			"logout-form",
-			"lang"
+			"myModal",
+			"vouloir",
+			"\"\""
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -320,7 +297,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -329,15 +306,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1681,
+						"buffer_size": 1904,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1565,
-								1565
+								733,
+								737
 							]
 						],
 						"settings":
@@ -351,56 +328,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "portfolio/resources/views/homepage.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 16773,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8460,
-								8460
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 4443.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "portfolio/resources/views/layouts/app.blade.php",
+					"buffer": 1,
+					"file": "portfolio/resources/views/test.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3480,
+						"buffer_size": 3980,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2354,
-								2354
+								3618,
+								3599
 							]
 						],
 						"settings":
@@ -412,27 +357,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 734.0,
+						"translation.y": 1880.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "portfolio/public/css/stylish-portfolio.css",
+					"buffer": 2,
+					"file": "portfolio/app/Http/Controllers/Admin/MessageController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7202,
+						"buffer_size": 2203,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2270,
-								2270
+								0,
+								0
 							]
 						],
 						"settings":
@@ -440,12 +385,12 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1710.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -456,7 +401,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -501,7 +446,7 @@
 	"project": "portfolio.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -539,7 +484,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 300.0,
+	"side_bar_width": 263.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
