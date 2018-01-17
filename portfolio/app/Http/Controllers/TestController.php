@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\MyMessage;
+use App\Models\Professional;
+
 
 class TestController extends Controller
 {
@@ -19,6 +21,18 @@ class TestController extends Controller
         // Return the view
         return view('test', compact('listMessages','nbrOfMessages'));
     }
+
+        public function index2()
+    {   
+        // Retrieve Skill Informations in the database for display
+        $listProfessionals = Professional::where('user_id',env('APP_OWNER_USERID'))->orderBy('created_at','desc');
+        $nbrOfProfessionals = $listProfessionals->count();
+        $listProfessionals = $listProfessionals->get();
+
+        // Return the view
+        return view('admin.professionalCrUD', compact('listProfessionals','nbrOfProfessionals'));
+    }
+
 
 
     // LANGUAGES

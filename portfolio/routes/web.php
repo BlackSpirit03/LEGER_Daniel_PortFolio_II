@@ -40,5 +40,4 @@ Route::get('/admin/personals/{message}','Admin\PersonalController@destroy')->mid
 // Routes de TEST
 Route::get('/test', 'TestController@index')->name('test');
 Route::get('/test/{message}', 'TestController@destroy')->name('testdestroy');
-Route::get('/test2', 'Test2Controller@index')->name('test2');
-
+Route::get('/test2', 'TestController@index2')->name('test2');
