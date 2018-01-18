@@ -10,7 +10,8 @@ class User extends Model
     public $timestamps = true;
     protected $table = 'users';
     protected $primaryKey = 'id'; 
+    protected $api_token = 'api_token';
     protected $fillable = [
-        'name', 'email', 'password', 'url'
+        'name', 'email', 'phone', 'password', 'url', 'api_token'
     ];
 }

@@ -6,7 +6,9 @@
 	<div class="row">
 		<div class="col-md-12 col-md-offset-0">
 			<div class="panel panel-primary">
-				<div class="panel-heading"><i class="fa fa-industry" aria-hidden="true"></i>&nbsp;@lang('Professionals')</div>
+				<div class="panel-heading">
+					<i class="fa fa-industry" aria-hidden="true"></i><span>&nbsp;@lang('Professionals')</span>
+				</div>
 
 				<div class="panel-body">
 					<table class="table table-striped table-responsive">
@@ -18,7 +20,13 @@
 							<th rowspan="2" style="vertical-align:bottom">@lang('Detail')</th>
 							<th colspan="2" style="text-align:center">Date</th>
 							
-							<th rowspan="2" style="vertical-align:bottom"><span class=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span></th>
+							<th rowspan="2" style="vertical-align:bottom">
+								<span class="text-primary">
+									<button class="btn btn-danger btn-sm"><i class="fa fa-pencil-square-o"></i></button>
+									
+								</span>
+							</th>
+
 						  </tr>
 						  <tr>
 						  	<th>@lang('Start')</th>
@@ -34,7 +42,7 @@
 							<td>{{ $lineoftable->detail }}</td>
 							<td>{{ $lineoftable->date_start }}</td>
 							<td>{{ $lineoftable->date_end }}</td>
-							<td><i class="fa fa-pencil-square-o" aria-hidden="true"></i></td>
+							<td style="text-align:center"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></td>
 						  </tr>
 						  @endforeach
 						</tbody>

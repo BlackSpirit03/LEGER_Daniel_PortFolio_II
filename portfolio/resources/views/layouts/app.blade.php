@@ -95,7 +95,7 @@
 			</div>
 		</nav>
 		@yield('content')
-		@include('admin.modal')
+		@include('admin.modal') <!-- ADDITIONAL MODAL WINDOWS TO CONFIRM DELETION -->
 	</div>
 
 	<!-- Scripts -->
@@ -103,30 +103,6 @@
 	<script src="{{ asset('js/script.js') }}"></script>
 
 	<!-- Script Additionnel By DLEGER -->
-<!-- 	<script type="text/javascript">
-	$(document).ready(function(){
-
-		// Store some value before to show the modal
-		$('.validsup').click(function(e) {
-			
-			e.preventDefault();
-
-			$('#btdel').attr('href',$(this).parent().attr('href'));
-
-			// Show the Modal on load
-			$("#MyModal").modal("show");
-
-		});
-
-	    // Run action and Hide the Modal
-	    $("#btdel").click(function(){
-
-			$(location).attr('href', $('#btdel').attr('href'));
-	        $("#MyModal").modal("hide");
-	    });
-	});
-
-	</script> -->
 
 </body>
 </html>

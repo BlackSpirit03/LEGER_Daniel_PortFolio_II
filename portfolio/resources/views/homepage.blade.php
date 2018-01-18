@@ -38,7 +38,6 @@
 
 	<body id="page-top">
 
-
 		<!-- ############### Navigation Menu ################### -->
 		<a class="menu-toggle rounded" href="#">
 			<i class="fa fa-bars"></i>

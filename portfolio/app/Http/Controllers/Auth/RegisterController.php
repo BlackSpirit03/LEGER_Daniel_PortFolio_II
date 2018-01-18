@@ -1,4 +1,5 @@
 <?php
+// Made or Customized by DLEGER
 
 namespace App\Http\Controllers\Auth;
 
@@ -48,10 +49,11 @@ class RegisterController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'name' => 'required|string|max:255',
-            'email' => 'required|string|email|max:255|unique:users',
-            'password' => 'required|string|min:6|confirmed',
-            'url' => 'required|string|min:6',
+            'name'      => 'required|string|max:255',
+            'email'     => 'required|string|email|max:255|unique:users',
+            'phone'     => 'required|string|phone|max:25',
+            'password'  => 'required|string|min:6|confirmed',
+            'url'       => 'required|string|min:6',
         ]);
     }
 
@@ -64,10 +66,12 @@ class RegisterController extends Controller
     protected function create(array $data)
     {
         return User::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'password' => bcrypt($data['password']),
-            'url' => $data['url'],
+            'name'      => $data['name'],
+            'email'     => $data['email'],
+            'phone'     => $data['phone'],
+            'password'  => bcrypt($data['password']),
+            'url'       => $data['url'],
+            'api_token' => str_random(60),
         ]);
     }
 }
