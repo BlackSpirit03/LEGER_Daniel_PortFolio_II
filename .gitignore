@@ -6,3 +6,4 @@ portfolio/public/img/.DS_Store
 portfolio/app/Http/Controllers/.DS_Store
 portfolio/app/Http/.DS_Store
 portfolio/.DS_Store
+db_portfolio.sql
