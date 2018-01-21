@@ -33,6 +33,7 @@
 		<link href="css/flipcard.css" rel="stylesheet" type="text/css" >
 		<link href="css/portrait.css" rel="stylesheet">
 		<link href="css/animate.css" rel="stylesheet">
+		<link href="css/jquery_cardflip.css" rel="stylesheet">
 
 	</head>
 
@@ -161,27 +162,100 @@
 						<h2 class="vertical"><strong>@lang('SKILLS')</strong></h2>
 					</div>
 
-					<!-- Right Cards -->
+					<!-- Right Column -->
 					<div class="col-lg-10 col-md-0 mb-2 mb-lg-0">
 						
+						<!-- Row for FlipCard Display -->
+						<div class="row justify-content-center">
+
+							@foreach($listSkills as $lineskill) <!-- Start of Foreach -->
+
+								<style type="text/css">
+									#logoid{{$lineskill->id}} {
+									width:90%;
+									background: #ffffff url("{{ $lineskill->logo }}") no-repeat center center;
+									background-size:150px 150px;
+									}
+								</style>
+
+								<!-- Complete Flip Card -->
+								<div class="hover panel" onmouseover="javascript:this.className += ' flip';" onmouseout="javascript:this.className = 'hover panel';">
+
+									<!-- Front -->
+									<div class="front bg-primary">
+
+										<div class="frontTitle text-shadow">
+											<h4 class="text-warning"><strong>{{ $lineskill->short_label }}</strong></h4>
+										</div>
+
+										<div id="logoid{{$lineskill->id}}" class="frontLogo" alt="logo of {{$lineskill->short_label}}">
+										</div>
+
+										<div class="starRatingIndex frontLocation">
+											
+											@for($i = 1; $i <= 5; $i++)
+												@if($i <= $lineskill->level)
+													<span class="text-shadow fa fa-star starchecked"></span>
+												@else
+													<span class="text-shadow fa fa-star"></span>
+												@endif
+											@endfor
+
+										</div>
+
+									</div> <!-- End of Front -->
+
+								  	<!-- Back -->
+								  	<div class="back" style="background-color: #1c1354;">
+										
+										<div class="backTitle text-white">{{ $lineskill->short_label }}</div>
+										
+										<div class="backParagraph text-white text-justify">{!! $lineskill->detail !!}</div>
+										
+										<div class="backGoto">
+									  		<a href="http://dissolve.com/products?media_type=video&producer=Nicholas+Butler" target="_blank" title="Stock Video Collection (Not very comprehensive atm)">Stock Collection</a>
+										</div>
+								  	</div>
+
+								</div> <!-- End of Complete Flip Card -->
+
+								<!-- Iteration modulo testing for ligne return -->
+								@if(($loop->iteration % 4) == 0)
+									</div>
+									<hr>
+									<div class="row justify-content-center">
+								@endif
+
+							@endforeach <!-- End of Foreach -->
+						
+						</div> <!-- End of Row for FlipCard Display -->
+						
+						<hr>
+								
 						<!-- Card Display -->
 						<div class="row">
-							@foreach($listSkills as $lineskill)
+
+							@foreach($listSkills2 as $lineskill2)
 							<div class="col-lg-6 col-md-0 mb-2 mb-lg-0">
 								<div class="card bg-primary text-left mb-3">
 									<div class="card-body">
-										<h4 class="text-warning"><strong>{{ $lineskill->short_label }}</strong></h4>
-										<p class="text-white mb-0">{{ $lineskill->detail }}</p>
+										<h4 class="text-warning text-shadow"><strong>{{ $lineskill2->short_label }}</strong></h4>
+										<p class="text-white mb-0">{!! $lineskill2->detail !!}</p>
+										@for($i = 1; $i <= 5; $i++)
+											@if($i <= $lineskill2->level)
+												<span class="text-shadow fa fa-star starchecked"></span>
+											@else
+												<span class="text-shadow fa fa-star"></span>
+											@endif
+										@endfor
 									</div>
 								</div>
-								</div>
+							</div>
 							@endforeach
+
 						</div> <!-- End of Card Display -->
-
-					</div> <!-- End of Right Card -->
-
+					</div> <!-- End of Right Column -->
 				</div> <!-- End of Row -->
-
 			</div> <!-- End of Container Fluid -->
 
 		</section>
@@ -490,6 +564,7 @@
 		<!-- Additional Custom scripts used in this template -->
 		<script src="js/stylish-portfolio.min.js"></script>
 		<script src="js/cypher_Animation.js"></script>
+		<script src="js/jquery_cardflip.js"></script>
 
 		<!-- Flash Alert -->
 		<script>

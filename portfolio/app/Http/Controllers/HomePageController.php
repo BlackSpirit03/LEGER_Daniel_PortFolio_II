@@ -18,7 +18,10 @@ class HomePageController extends Controller
     public function index()
     {	
         // Retrieve Skill Informations in the database for display
-        $listSkills = Skill::where([['user_id','=',env('APP_OWNER_USERID',1)],['language',"=", session('locale')]])->get();
+        $listSkills = Skill::where([['user_id','=',env('APP_OWNER_USERID',1)],['language',"=", session('locale')],['type',"=",'1']])->orderby('order')->get();
+
+        // Retrieve Skill Informations in the database for display (bis)
+        $listSkills2 = Skill::where([['user_id','=',env('APP_OWNER_USERID',1)],['language',"=", session('locale')],['type',"=",'2']])->orderby('order')->get();
 
         // Retrieve Professional Informations in the database for display
         $listProfessionals = Professional::where([['user_id','=',env('APP_OWNER_USERID',1)],['language',"=", session('locale')]])->get();
@@ -30,7 +33,7 @@ class HomePageController extends Controller
         $listPersonals = Personal::where([['user_id','=',env('APP_OWNER_USERID',1)],['language',"=", session('locale')]])->get();
 
     	// Displaying of the page
-    	return view('homepage', compact('listSkills','listProfessionals','listProjects','listPersonals'));
+    	return view('homepage', compact('listSkills','listSkills2','listProfessionals','listProjects','listPersonals'));
     }
 
 
