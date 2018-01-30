@@ -53,7 +53,7 @@
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <div>
-                    <img src="img/peugeot_404.png" class="img-responsive"  width="100%" height="auto"alt="Error 404">
+                    <img src="{{ env('app.url') }}/img/peugeot_404.png" class="img-responsive"  width="100%" height="auto"alt="Error 404">
                 </div>
                 <div class="title">
                     @yield('message')

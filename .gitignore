@@ -7,3 +7,5 @@ portfolio/app/Http/.DS_Store
 portfolio/.DS_Store
 portfolio/.env
 db_portfolio.sql
+.env
+

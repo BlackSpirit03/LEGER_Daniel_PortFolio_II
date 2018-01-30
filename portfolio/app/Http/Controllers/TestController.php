@@ -22,7 +22,7 @@ class TestController extends Controller
         return view('test', compact('listMessages','nbrOfMessages'));
     }
 
-        public function index2()
+    public function index2()
     {   
         // Retrieve Skill Informations in the database for display
         $listProfessionals = Professional::where('user_id',env('APP_OWNER_USERID'))->orderBy('created_at','desc');
@@ -31,6 +31,11 @@ class TestController extends Controller
 
         // Return the view
         return view('admin.professionalCrUD', compact('listProfessionals','nbrOfProfessionals'));
+    }
+
+    public function index3()
+    {
+        return view('admin.skills_crud_2');
     }
 
 

@@ -33,7 +33,7 @@
 								<td>{{ $lineoftable->email }}</td>
 								<td>{{ $lineoftable->created_at }}</td>
 								<td rowspan="2" style="vertical-align:middle">
-									<a href="{{ route('messages_del', $lineoftable->id) }}">
+									<a href="{{ route('messages.destroy', $lineoftable->id) }}">
 										<i class="validsup fa fa-trash-o" aria-hidden="true"></i></a></td>
 							</tr>
 							<tr class="line2">

@@ -128,43 +128,28 @@
 	"buffers":
 	[
 		{
-			"file": "portfolio/resources/views/admin/skills_create.blade.php",
+			"file": "skills.blade.php",
 			"settings":
 			{
-				"buffer_size": 5895,
+				"buffer_size": 2095,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "portfolio/resources/views/layouts/app.blade.php",
+			"file": "/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio.sublime-project",
 			"settings":
 			{
-				"buffer_size": 3844,
+				"buffer_size": 45,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "portfolio/resources/views/admin/modal.blade.php",
+			"file": "skills_update.blade.php",
 			"settings":
 			{
-				"buffer_size": 1035,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "portfolio/app/Http/Controllers/Admin/MessageController.php",
-			"settings":
-			{
-				"buffer_size": 2402,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "portfolio/resources/views/admin/messages.blade.php",
-			"settings":
-			{
-				"buffer_size": 1835,
+				"buffer_size": 7059,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -213,23 +198,10 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/app",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/app/Http",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/app/Http/Controllers",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/app/Http/Controllers/Admin",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/resources",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/resources/views",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/resources/views/admin",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/resources/views/layouts"
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II"
 	],
 	"file_history":
 	[
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/.gitignore",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/apiPortfolio/_Creator/apiportfolio/templates/welcomeBienvenue.html",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/apiPortfolio/_Creator/apiportfolio/templates/cameraTabDefaultPage.html",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/resources/views/admin/portfolio.sublime-project",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/resources/views/errors/layout.blade.php",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/routes/web.php",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/resources/views/layouts/app.blade.php",
@@ -310,6 +282,7 @@
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/app/User.php",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II copie/portfolio/.gitignore",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/.gitignore",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/.gitignore",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/resources/views/errors/404.blade.php",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/public/js/script_error.js",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio/composer.json",
@@ -353,7 +326,10 @@
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/exo/contact-form-fr/contact-form.php",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/exo/js/script.js",
 		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/exo/style.css",
-		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/twentysixteen/header.php"
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/twentysixteen/header.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-includes/general-template.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/twentysixteen/functions.php",
+		"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/wordpress/wpaformac/wp-content/themes/exo/index.html"
 	],
 	"find":
 	{
@@ -364,7 +340,6 @@
 		"height": 101.0,
 		"where_history":
 		[
-			"/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II"
 		]
 	},
 	"find_state":
@@ -372,7 +347,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"sublime",
 			")",
 			"'",
 			"input::get(",
@@ -422,19 +396,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "portfolio/resources/views/admin/skills_create.blade.php",
+					"file": "skills.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5895,
+						"buffer_size": 2095,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4751,
-								4751
+								1768,
+								1768
 							]
 						],
 						"settings":
@@ -446,51 +420,19 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2697.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "portfolio/resources/views/layouts/app.blade.php",
-					"semi_transient": false,
+					"file": "/Users/dleger/pCloud Sync/AFORMAC03-DLEGER/SITES & EXERCICES/Projets/Individuel/LEGER_Daniel_PortFolio_II/portfolio.sublime-project",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 3844,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3582,
-								3582
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1462.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "portfolio/resources/views/admin/modal.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1035,
+						"buffer_size": 45,
 						"regions":
 						{
 						},
@@ -506,6 +448,37 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "skills_update.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7059,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								817,
+								817
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
@@ -514,71 +487,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "portfolio/app/Http/Controllers/Admin/MessageController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2402,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								596,
-								597
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 98.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "portfolio/resources/views/admin/messages.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1835,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								80,
-								83
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 265.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -673,7 +581,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 306.0,
+	"side_bar_width": 469.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -6,7 +6,16 @@
 	<div class="row">
 		<div class="col-md-12 col-md-offset-0">
 			<div class="panel panel-primary">
-				<div class="panel-heading"><i class="fa fa-user" aria-hidden="true"></i></i>&nbsp;@lang('Personals')</div>
+				<div class="panel-heading">
+					<div class="row">
+						<div class="col-md-10">
+							<i class="fa fa-user" aria-hidden="true"></i>&nbsp;@lang('Personals')
+						</div>
+						<div class="col-md-2">
+							<a class="btn btn-block btn-sm btn-warning" href="{{ route('personals.create') }}">@lang('New Entrie')</a>
+						</div>
+					</div>
+				</div>
 
 				<div class="panel-body">
 					<table class="table table-striped table-responsive">
@@ -17,7 +26,11 @@
 							<th rowspan="2" style="vertical-align:bottom">@lang('Short Label')</th>
 							<th rowspan="2" style="vertical-align:bottom">@lang('Detail')</th>
 							<th colspan="2" style="text-align:center">@lang('Date')</th>
-							<th rowspan="2" style="vertical-align:bottom"><span class=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span></th>
+							<th rowspan="2" style="vertical-align:bottom">
+								<span class="">
+									<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+								</span>
+							</th>
 						  </tr>
 						  <tr>
 						  	<th>@lang('Start')</th>
@@ -33,7 +46,10 @@
 							<td>{{ $lineoftable->detail }}</td>
 							<td>{{ $lineoftable->date_start }}</td>
 							<td>{{ $lineoftable->date_end }}</td>
-							<td><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></td>
+							<td><a href="{{ route('personals.edit', $lineoftable->id) }}">
+								<i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></td>
+							<td><a href="{{ route('personals.destroy', $lineoftable->id) }}">
+									<i class="validsup fa fa-trash-o" aria-hidden="true"></i></a></td>
 						  </tr>
 						  @endforeach
 						</tbody>

@@ -11,6 +11,6 @@ class Skill extends Model
     protected $table = 't_skills';
     protected $primaryKey = 'id'; 
     protected $fillable = [
-        'user_id', 'language', 'short_label', 'detail', 'level', 'order', 'logo'
+        'user_id', 'language', 'short_label', 'detail', 'type', 'level', 'order', 'logo'
     ];
 }

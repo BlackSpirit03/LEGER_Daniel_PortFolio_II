@@ -7,7 +7,7 @@ use App\Models\Professional;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
-
+use App\Http\Requests\ProfessionalRequest;
 
 class ProfessionalController extends Controller
 {
@@ -30,7 +30,7 @@ class ProfessionalController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.professionals_create');
     }
 
     /**
@@ -41,7 +41,9 @@ class ProfessionalController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //dd($request);
+        Professional::create($request->except('_token'));
+        return Redirect()->route('professionals.index');
     }
 
     /**
@@ -63,7 +65,10 @@ class ProfessionalController extends Controller
      */
     public function edit(Professional $professional)
     {
-        //
+        //dd($skill);
+        $oneProfessional = Professional::where([['user_id','=',env('APP_OWNER_USERID',1)],['id',"=", $professional->id]])->first();
+        $nextRoute = "route('professionals.update'), $oneProfessional->id";
+        return view('admin.professionals_update', compact('oneProfessional','nextRoute'));
     }
 
     /**
@@ -86,6 +91,7 @@ class ProfessionalController extends Controller
      */
     public function destroy(Professional $professional)
     {
-        //
+        $oneProfessional = Professional::where([['user_id','=',env('APP_OWNER_USERID',1)],['id',"=", $professional->id]])->delete();
+        return back();
     }
 }

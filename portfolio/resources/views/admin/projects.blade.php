@@ -6,7 +6,16 @@
 	<div class="row">
 		<div class="col-md-12 col-md-offset-0">
 			<div class="panel panel-primary">
-				<div class="panel-heading"><i class="fa fa-photo" aria-hidden="true"></i>&nbsp;@lang('Projects')</div>
+				<div class="panel-heading">
+					<div class="row">
+						<div class="col-md-10">
+							<i class="fa fa-photo" aria-hidden="true"></i>&nbsp;@lang('Projects')
+						</div>
+						<div class="col-md-2">
+							<a class="btn btn-block btn-sm btn-warning" href="{{ route('projects.create') }}">@lang('New Entrie')</a>
+						</div>
+					</div>
+				</div>
 
 				<div class="panel-body">
 
@@ -34,7 +43,10 @@
 							<td>{{ $lineoftable->detail }}</td>
 							<td>{{ $lineoftable->date_start }}</td>
 							<td>{{ $lineoftable->date_end }}</td>
-							<td><i class="fa fa-pencil-square-o" aria-hidden="true"></i></td>
+							<td><a href="{{ route('projects.edit', $lineoftable->id) }}">
+								<i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></td>
+							<td><a href="{{ route('projects.destroy', $lineoftable->id) }}">
+									<i class="validsup fa fa-trash-o" aria-hidden="true"></i></a></td>
 						  </tr>
 						  @endforeach
 						</tbody>

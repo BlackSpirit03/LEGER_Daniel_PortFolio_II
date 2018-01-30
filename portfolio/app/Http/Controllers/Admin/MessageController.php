@@ -32,7 +32,7 @@ class MessageController extends Controller
      */
     public function create()
     {
-        //
+        // No needed : no messages created manualy
     }
 
     /**
@@ -43,7 +43,7 @@ class MessageController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // No needed : no messages created manualy
     }
 
     /**
@@ -54,7 +54,7 @@ class MessageController extends Controller
      */
     public function show(MyMessage $message)
     {
-        //
+        // No needed : no messages show individualy
     }
 
     /**
@@ -65,7 +65,7 @@ class MessageController extends Controller
      */
     public function edit(MyMessage $message)
     {
-        //
+        // No needed : no messages edited manualy
     }
 
     /**
@@ -77,7 +77,7 @@ class MessageController extends Controller
      */
     public function update(Request $request, MyMessage $message)
     {
-        //
+        // No needed : no messages updated manualy
     }
 
     /**
@@ -88,7 +88,7 @@ class MessageController extends Controller
      */
     public function destroy(MyMessage $message)
     {
-        $listMessages = MyMessage::where([['user_id','=',env('APP_OWNER_USERID',1)],['id',"=", $message->id]])->delete();
+        $OneMessages = MyMessage::where([['user_id','=',env('APP_OWNER_USERID',1)],['id',"=", $message->id]])->delete();
         return back();
     }
 }

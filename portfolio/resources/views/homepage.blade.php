@@ -33,7 +33,6 @@
 		<link href="css/flipcard.css" rel="stylesheet" type="text/css" >
 		<link href="css/portrait.css" rel="stylesheet">
 		<link href="css/animate.css" rel="stylesheet">
-		<link href="css/jquery_cardflip.css" rel="stylesheet">
 
 	</head>
 
@@ -194,11 +193,7 @@
 										<div class="starRatingIndex frontLocation">
 											
 											@for($i = 1; $i <= 5; $i++)
-												@if($i <= $lineskill->level)
-													<span class="text-shadow fa fa-star starchecked"></span>
-												@else
-													<span class="text-shadow fa fa-star"></span>
-												@endif
+												<span class="text-shadow fa fa-star @if($i <= $lineskill->level) starchecked @endif"></span>
 											@endfor
 
 										</div>

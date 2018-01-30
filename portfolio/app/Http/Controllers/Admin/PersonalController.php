@@ -7,7 +7,7 @@ use App\Models\Personal;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
-
+use App\Http\Requests\PersonalRequest;
 
 class PersonalController extends Controller
 {
@@ -87,6 +87,6 @@ class PersonalController extends Controller
      */
     public function destroy(Personal $personal)
     {
-        //
-    }
+        $onePersonal = Personal::where([['user_id','=',env('APP_OWNER_USERID',1)],['id',"=", $personal->id]])->delete();
+        return back();    }
 }

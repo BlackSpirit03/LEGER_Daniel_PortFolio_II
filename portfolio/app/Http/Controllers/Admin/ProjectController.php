@@ -7,7 +7,7 @@ use App\Models\Project;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
-
+use App\Http\Requests\ProjectRequest;
 
 class ProjectController extends Controller
 {
@@ -86,6 +86,6 @@ class ProjectController extends Controller
      */
     public function destroy(Project $project)
     {
-        //
-    }
+        $oneProjet = Project::where([['user_id','=',env('APP_OWNER_USERID',1)],['id',"=", $project->id]])->delete();
+        return back();    }
 }

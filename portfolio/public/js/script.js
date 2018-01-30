@@ -9,6 +9,9 @@ $(document).ready(function(){
 		//Stop the run of form action
 		e.preventDefault();
 
+		//Control display
+		//alert($(this).parent().attr('href'));
+
 		//Store in the Modal button the url initially send by the form button
 		$('#btdel').attr('href',$(this).parent().attr('href'));
 
@@ -27,17 +30,6 @@ $(document).ready(function(){
 		// Hide the Modal
         $("#MyModal").modal("hide");
     });
-
-
-    // UNKNOWN FUNCTION TO ISOLATE !!!
-	$('table[data-form="deleteForm"]').on('click', '.form-delete', function(e){
-	    e.preventDefault();
-	    var $form=$(this);
-	    $('#confirm').modal({ backdrop: 'static', keyboard: false })
-	        .on('click', '#delete-btn', function(){
-	            $form.submit();
-	        });
-	});
 
 });
 

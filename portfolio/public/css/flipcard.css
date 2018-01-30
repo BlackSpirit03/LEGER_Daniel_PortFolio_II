@@ -28,6 +28,7 @@
 	width: inherit;
 	height: inherit;
 	background: #fff;
+	border-radius: .25rem;
 	
 	-moz-box-shadow: 0 1px 15px rgba(0,0,0,0.1);
 	-webkit-box-shadow: 0 1px 15px rgba(0,0,0,0.1);
@@ -84,6 +85,8 @@
 	height: inherit;
 	background: #fff;
 	border:1px solid #000;
+	border-radius: .25rem;
+
 	-webkit-transform: rotateY(-180deg);
 	-webkit-transform-style: preserve-3d;
 	-webkit-backface-visibility: hidden;

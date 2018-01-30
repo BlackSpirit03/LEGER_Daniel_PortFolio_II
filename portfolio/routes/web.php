@@ -25,26 +25,21 @@ Route::get('/home', 'HomePageController@index');
 Route::get('/admin', 'HomeController@index')->name('admin');
 
 // Routes for Admin Parts only after authentication
-// Routes for Messages
-Route::get('/admin/messages','Admin\MessageController@index')->middleware(['auth'])->name('messages');
-Route::get('/admin/messages/{message}','Admin\MessageController@destroy')->middleware(['auth'])->name('messages_del');
+Route::middleware('auth')->prefix('admin')->group(function () {
+	Route::resource('messages', 'Admin\MessageController', ['except'=>['show','destroy']]);
+	Route::get('messages/{message}','Admin\MessageController@destroy')->name('messages.destroy');
 
-// Routes for Skills
-Route::get('/admin/skills','Admin\SkillController@index')->middleware(['auth'])->name('skills');
-Route::get('/admin/skills/{skill}','Admin\SkillController@destroy')->middleware(['auth'])->name('skills_del');
-Route::get('/admin/skills/create','Admin\SkillController@create')->middleware(['auth'])->name('skills_create');
+	Route::resource('skills', 'Admin\SkillController', ['except'=>['show','destroy']]);
+	Route::get('skills/{skill}','Admin\SkillController@destroy')->name('skills.destroy');
 
-// Routes for Professionals
-Route::get('/admin/professionals','Admin\ProfessionalController@index')->middleware(['auth'])->name('professionals');
+	Route::resource('professionals', 'Admin\ProfessionalController', ['except'=>['show','destroy']]);
+	Route::get('professionals/{professional}','Admin\ProfessionalController@destroy')->name('professionals.destroy');
 
-// Routes for Projects
-Route::get('/admin/projects','Admin\ProjectController@index')->middleware(['auth'])->name('projects');
+	Route::resource('projects', 'Admin\ProjectController', ['except'=>['show','destroy']]);
+	Route::get('projects/{project}','Admin\ProjectController@destroy')->name('projects.destroy');
 
-// Routes for Personals
-Route::get('/admin/personals','Admin\PersonalController@index')->middleware(['auth'])->name('personals');
-Route::get('/admin/personals/{message}','Admin\PersonalController@destroy')->middleware(['auth'])->name('personals_del');
+	Route::resource('personals', 'Admin\PersonalController', ['except'=>['show','destroy']]);
+	Route::get('personals/{personal}','Admin\PersonalController@destroy')->name('personals.destroy');
+});
 
-// Routes de TEST
-Route::get('/test', 'TestController@index')->name('test');
-Route::get('/test/{message}', 'TestController@destroy')->name('testdestroy');
-Route::get('/test2', 'TestController@index2')->name('test2');
+

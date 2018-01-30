@@ -14,9 +14,9 @@
 
 	<!-- Styles -->
 	<link href="{{ asset('css/app.css') }}" rel="stylesheet">
-	<link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href="../vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-	<link href="/css/style.css" type="text/css" rel="stylesheet">
+	<link href="{{ config('app.path') }}/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="{{ config('app.path') }}/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+	<link href="{{ asset('css/style.css') }}" type="text/css" rel="stylesheet">
 
 
 </head>
@@ -54,11 +54,11 @@
 					<ul class="nav navbar-nav">
 						&nbsp;
 						<li class=""><a href="{{ route('admin') }}">@lang('Dashboard')<span class="sr-only">(current)</span></a></li>						
-						<li class=""><a href="{{ route('messages') }}">@lang('Messages')<span class="sr-only">(current)</span></a></li>
-						<li class=""><a href="{{ route('skills') }}">@lang('Skills')<span class="sr-only">(current)</span></a></li>
-						<li class=""><a href="{{ route('professionals') }}">@lang('Professionals')<span class="sr-only">(current)</span></a></li>
-						<li class=""><a href="{{ route('projects') }}">@lang('Projects')<span class="sr-only">(current)</span></a></li>
-						<li class=""><a href="{{ route('personals') }}">@lang('Personals')<span class="sr-only">(current)</span></a></li>
+						<li class=""><a href="{{ route('messages.index') }}">@lang('Messages')<span class="sr-only">(current)</span></a></li>
+						<li class=""><a href="{{ route('skills.index') }}">@lang('Skills')<span class="sr-only">(current)</span></a></li>
+						<li class=""><a href="{{ route('professionals.index') }}">@lang('Professionals')<span class="sr-only">(current)</span></a></li>
+						<li class=""><a href="{{ route('projects.index') }}">@lang('Projects')<span class="sr-only">(current)</span></a></li>
+						<li class=""><a href="{{ route('personals.index') }}">@lang('Personals')<span class="sr-only">(current)</span></a></li>
 						<li class=""><a href="{{ route('register') }}">@lang('Register')<span class="sr-only">(current)</span></a></li>
 					</ul>
 					@endguest
