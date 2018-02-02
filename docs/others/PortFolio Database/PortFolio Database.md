@@ -1,6 +1,0 @@
-**AUTHORS** (<ins>idt_author</ins>, email, password, url, created_at, updated_at)  
-**SKILLS** (<ins>idt_skill</ins>, language, short_label, detail, level, created_at, updated_at, _idt_author_)  
-**PROFESSIONALS** (<ins>idt_professional</ins>, language, short_label, detail, date_start, date_end, created_at, updated_at, _idt_author_)  
-**PROJECTS** (<ins>idt_project</ins>, language, short_label, detail, photo, date_start, date_end, created_at, updated_at, _idt_author_)  
-**PERSONNALS** (<ins>idt_personnal</ins>, language, short_label, detail, date_start, date_end, created_at, updated_at, _idt_author_)  
-**MESSAGES** (<ins>idt_message</ins>, name_contact, phone_contact, email, message, flag_urgent, date, created_at, updated_at, _idt_author_)
