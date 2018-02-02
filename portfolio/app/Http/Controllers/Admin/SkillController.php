@@ -33,7 +33,10 @@ class SkillController extends Controller
      */
     public function create()
     {
-        return view('admin.skills_create');
+        //Define Flag Update to False
+        $flagUpdate = false;
+
+        return view('admin.skills_addupd', compact('flagUpdate'));
     }
 
     /**
@@ -44,15 +47,31 @@ class SkillController extends Controller
      */
     public function store(SkillRequest $request)
     {
-        //Create entrie in the database
-        //$request->logo = $request->logo->getClientOriginalName();
-        Skill::create($request->except('_token'));
+        //Testing if a logo is present
+        if($request->logo) {
 
-        //Store the logo file
-        $uploadStore = public_path('img/logos');
-        $fileName = $request->logo->getClientOriginalName();
-        $request->logo->move($uploadStore,$fileName);
+            //Prepare file recording
+            $uploadStore = public_path('img/logos');
+            $realFileName = $request->logo->getClientOriginalName();
 
+            //Store the logo file
+            $request->logo->move($uploadStore,$realFileName);
+
+            //Create entrie in the database
+            $skill = new Skill($request->except('csrf_token'));
+            
+            //Insert real name in the field
+            $skill->logo = 'img/logos/' . $realFileName;
+            
+            //Save record
+            $skill->save();
+            
+        } else {
+
+            Skill::create($request->except('_token'));
+        }
+
+        //Return to the index list
         return Redirect()->route('skills.index');
     }
 
@@ -75,9 +94,11 @@ class SkillController extends Controller
      */
     public function edit(Skill $skill)
     {
-        //dd($skill);
+        //Define Flag Update to True
+        $flagUpdate = true;
+
         $oneSkill = Skill::where([['user_id','=',env('APP_OWNER_USERID',1)],['id',"=", $skill->id]])->first();
-        return view('admin.skills_update', compact('oneSkill'));
+        return view('admin.skills_addupd', compact('flagUpdate', 'oneSkill'));
     }
 
     /**

@@ -208,7 +208,7 @@
 										<div class="backParagraph text-white text-justify">{!! $lineskill->detail !!}</div>
 										
 										<div class="backGoto">
-									  		<a href="http://dissolve.com/products?media_type=video&producer=Nicholas+Butler" target="_blank" title="Stock Video Collection (Not very comprehensive atm)">Stock Collection</a>
+									  		<!-- Part Not Used -->
 										</div>
 								  	</div>
 
@@ -380,6 +380,8 @@
 
 		<!-- ############## Section Contact Me ################ -->
 		<section class="content-section bg-primary text-white" id="contact">
+
+			@yield('homepage_form')
 
 
 			<div class="content-section-heading">

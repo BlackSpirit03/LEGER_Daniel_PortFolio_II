@@ -23,14 +23,15 @@ class SkillRequest extends FormRequest
 	 */
 	public function rules()
 	{
+		//dd($this->logo);
 		return [
 			// fields to be verify
-			'language'		=> 'required|max:190',
+			'language'		=> 'required|max:2',
 			'short_label'	=> 'required|max:190',
-			'type'			=> 'required|min:1|max:3',
-			'level'			=> 'required|min:1|max:5',
-			'order'			=> 'required|min:1|max:100',
-			'logo'			=> 'required|max:190'
+			'type'			=> 'required|integer|min:1|max:3',
+			'level'			=> 'required|integer|min:1|max:5',
+			'order'			=> 'required|integer|min:1|max:99',
+			'logo'			=> 'file|image'
 		];
 	}
 }

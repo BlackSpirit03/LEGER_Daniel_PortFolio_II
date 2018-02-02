@@ -18,7 +18,6 @@
 	<link href="{{ config('app.path') }}/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 	<link href="{{ asset('css/style.css') }}" type="text/css" rel="stylesheet">
 
-
 </head>
 
 <body style="background: #000000">
